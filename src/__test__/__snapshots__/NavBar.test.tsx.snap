@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar rendrs as expected 1`] = `
+<Nav
+  className="nav"
+  fill={false}
+  justify={false}
+>
+  <NavItem>
+    <NavLink
+      as={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        }
+      }
+      disabled={false}
+      href="#/"
+    >
+      Home
+    </NavLink>
+  </NavItem>
+  <NavItem>
+    <NavLink
+      as={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        }
+      }
+      disabled={false}
+      href="#/graphs"
+    >
+      Graphs
+    </NavLink>
+  </NavItem>
+  <NavItem>
+    <NavLink
+      as={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        }
+      }
+      disabled={false}
+      href="#/rocket-image"
+    >
+      Rocket Image
+    </NavLink>
+  </NavItem>
+</Nav>
+`;
